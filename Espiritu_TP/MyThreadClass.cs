@@ -12,7 +12,7 @@ namespace Espiritu_TP
         public static void Thread1()
         {
 
-            for (int i = 0; i < 2; i++)
+            for (int i = 0; i < 3; i++)
             {
                 Thread thread = Thread.CurrentThread;
                 Console.WriteLine("Name of Thread: " + thread.Name + " = " + i);
